@@ -1,5 +1,7 @@
 site_name: Just Article
 site_url: https://kuiming.github.io/just_article/
+# extra_css:
+#   - extra.css
 theme:
   name: material
   palette:
@@ -31,6 +33,7 @@ nav:
     - 首頁: index.md
     - 文章列表: 
         - Anthropic 融資 4.5 億美元用於構建下一代 AI 助手: 20230524111901.md
+        - Google Product Studio 驚艷登場：AI 讓商家輕鬆創建產品圖像: 20230525231901.md
 
 markdown_extensions: 
   - attr_list
