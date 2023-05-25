@@ -1,0 +1,51 @@
+site_name: Just Article
+site_url: https://portaly.cc/kuimingchen
+theme:
+  name: material
+  palette:
+  - media: "(prefers-color-scheme: dark)"
+    scheme: slate
+    primary: teal
+    accent: orange
+    toggle:
+      icon: material/brightness-4
+      name: Switch to system preference  
+  - media: "(prefers-color-scheme)"
+    primary: teal
+    accent: orange
+    toggle:
+      icon: material/brightness-auto
+      name: Switch to light mode
+  - media: "(prefers-color-scheme: light)"
+    scheme: default 
+    primary: teal
+    accent: orange
+    toggle:
+      icon: material/brightness-7
+      name: Switch to dark mode
+  features:
+      - navigation.tabs
+      - navigation.tabs.sticky
+
+nav:
+    - 首頁: index.md
+    - 文章列表: 
+        - Anthropic 融資 4.5 億美元用於構建下一代 AI 助手: 20230524111901.md
+
+markdown_extensions: 
+  - attr_list
+  - md_in_html
+  - pymdownx.emoji:
+        emoji_index: !!python/name:materialx.emoji.twemoji
+        emoji_generator: !!python/name:materialx.emoji.to_svg
+  
+extra:
+  generator: false
+  social:
+    - icon: material/email
+      link: "mailto:benjamin0901@gmail.com"
+    - icon: material/web
+      link: "https://portaly.cc/kuimingchen"
+    - icon: simple/line
+      link: "https://line.me/ti/p/9hF6WBmdck"
+copyright: Copyright © 2023 Just Article
