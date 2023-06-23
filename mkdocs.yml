@@ -3,6 +3,7 @@ site_url: https://kuiming.github.io/just_article/
 # extra_css:
 #   - extra.css
 theme:
+  custom_dir: overrides
   name: material
   palette:
   - media: "(prefers-color-scheme: dark)"
