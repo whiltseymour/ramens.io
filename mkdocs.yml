@@ -1,8 +1,9 @@
 site_name: Just Article
-site_url: https://kuiming.github.io/just_article/
+site_url: https://ramens.io/
 # extra_css:
 #   - extra.css
 theme:
+  custom_dir: overrides
   name: material
   palette:
   - media: "(prefers-color-scheme: dark)"
