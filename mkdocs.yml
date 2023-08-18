@@ -1,59 +1,79 @@
-site_name: Just Article
-site_url: https://ramens.io/
-# extra_css:
-#   - extra.css
-theme:
-  custom_dir: overrides
-  name: material
-  palette:
-  - media: "(prefers-color-scheme: dark)"
-    scheme: slate
-    primary: teal
-    accent: orange
-    toggle:
-      icon: material/brightness-4
-      name: Switch to system preference  
-  - media: "(prefers-color-scheme)"
-    primary: teal
-    accent: orange
-    toggle:
-      icon: material/brightness-auto
-      name: Switch to light mode
-  - media: "(prefers-color-scheme: light)"
-    scheme: default 
-    primary: teal
-    accent: orange
-    toggle:
-      icon: material/brightness-7
-      name: Switch to dark mode
-  features:
-      - navigation.tabs
-      - navigation.tabs.sticky
-
-nav:
-    - 首頁: index.md
-    - 文章列表: 
-        - Anthropic 融資 4.5 億美元用於構建下一代 AI 助手: 20230524111901.md
-        - Google Product Studio 驚艷登場：AI 讓商家輕鬆創建產品圖像: 20230525231901.md
-        - The surface of the sun is close to 6000 degrees, and it has heated the Earth, so why is space at absolute zero?: 2023053906480.md
-        - 最狂！跑贏非洲人的日本公務員: 20230601113201.md
-    - 金融鬼故事:
-        - 鬼故事範例: 20230703121901.md
-
-markdown_extensions: 
-  - attr_list
-  - md_in_html
-  - pymdownx.emoji:
-        emoji_index: !!python/name:materialx.emoji.twemoji
-        emoji_generator: !!python/name:materialx.emoji.to_svg
-  
+copyright: Copyright © 2023 Just Article
 extra:
   generator: false
   social:
-    - icon: material/email
-      link: "mailto:benjamin0901@gmail.com"
-    - icon: material/web
-      link: "https://portaly.cc/kuimingchen"
-    - icon: simple/line
-      link: "https://line.me/ti/p/9hF6WBmdck"
-copyright: Copyright © 2023 Just Article
+  - icon: material/email
+    link: mailto:benjamin0901@gmail.com
+  - icon: material/web
+    link: https://portaly.cc/kuimingchen
+  - icon: simple/line
+    link: https://line.me/ti/p/9hF6WBmdck
+markdown_extensions:
+- attr_list
+- md_in_html
+- pymdownx.emoji:
+    emoji_generator: !!python/name:materialx.emoji.to_svg ''
+    emoji_index: !!python/name:materialx.emoji.twemoji ''
+nav:
+- Home: index.md
+- Articles:
+  - Anthropic 融資 4.5 億美元用於構建下一代 AI 助手: 20230524111901.md
+  - Google Product Studio 驚艷登場：AI 讓商家輕鬆創建產品圖像: 20230525231901.md
+  - The surface of the sun is close to 6000 degrees, and it has heated the Earth, so why is space at absolute zero?: 2023053906480.md
+  - 最狂！跑贏非洲人的日本公務員: 20230601113201.md
+  - LeBron James Scores 38 Points, Reaches Career Total of 38,390 in Recent Game: 20230818160420328237.md
+  - '"Kyle Anderson: China''s First Naturalized Basketball Player from the NBA"': 20230818160437166199.md
+  - Celtics' Miraculous Comeback Ties NBA Eastern Conference Finals: 20230818160459469560.md
+  - '"Jaylen Brown signs record-breaking $952 million contract extension with Celtics"': 20230818160520303848.md
+  - Kerr's first postseason loss to a Western Conference team could spark Warriors' rebuild: 20230818160539825453.md
+  - '"Gender Pay Equality in Sports: Achievable on the Eve of Women''s World Cup in New Zealand?"': 20230818160606776235.md
+  - NBA Renames MVP Award as Michael Jordan Trophy, Honoring Basketball Legend: 20230818160641775980.md
+  - Jeremy Lin Joins PLG Kaohsiung Steel in Taiwan, Supports "Great Southern Plan" for Taiwanese Basketball: 20230818160655531980.md
+  - 'Article: Ja Morant''s Injury Forces Early Exit in Lakers vs. Grizzlies Playoff Match': 20230818161058997757.md
+  - Carmelo Anthony Announces Retirement from NBA in Emotional Twitter Video: 20230818161143840136.md
+  - '"Bronny James and Shareef O''Neal: Living in Fathers'' Shadows, Battling Heart Issues"': 20230818161214201286.md
+  - 'From NBA Star to Successful Venture Capitalist: The Transformative Journey of Baron Davis': 20230818161319964304.md
+  - '"LeBron James, 38, Makes NBA History with 28 Points Average"': 20230818161414015006.md
+  - Exciting Surprises at This Year's Slam Dunk Contest: 20230818161450242309.md
+  - Luka Doncic Makes NBA History with 250+ Points, 50+ Rebounds, and 50+ Assists in First 5 Games: 20230818161534369236.md
+  - 'Scoring King: Simplifying the Art of Decorative Enhancements': 20230818161552441251.md
+  - '2022 Recap: Warriors'' NBA Win, BTS Solo Career Announcement': 20230818161644962415.md
+  - '"2023 NBA Draft held at Barclays Center in New York"': 20230818161719008992.md
+  - '2022 Popular Keywords Review: Taiwan Star''s Disconnect and NAC Cough Medicine Rumor Go Viral': 20230818161747650077.md
+  - 'Dwight Howard: A Potential Spiritual Master Beyond Basketball': 20230818161822094269.md
+  - Trinity Rodman Shines in World Cup, Carving Her Own Path: 20230818161854297422.md
+  - '"Denver Nuggets Win Game 5 of NBA Finals Against Miami Heat"': 20230818161913978791.md
+  - '"San Antonio Spurs Secure Number One Victory in NBA"': 20230818161958798966.md
+  - 'Title: Rockets'' Rebuilding Path: Balancing Stability and Aggressiveness': 20230818162014127352.md
+  - Bai Yaocheng's Transformative Two-Year Journey: 20230818162045852903.md
+  - 'Survival: The Diligent Genius Alasa''s Unwavering Efforts': 20230818162231474220.md
+  - '"James Harden''s Evolving Role: From Championship Foundation to a Different Symbol"': 20230818162324025902.md
+site_name: Just Article
+site_url: https://ramens.io/
+theme:
+  custom_dir: overrides
+  features:
+  - navigation.tabs
+  - navigation.tabs.sticky
+  name: material
+  palette:
+  - accent: orange
+    media: '(prefers-color-scheme: dark)'
+    primary: teal
+    scheme: slate
+    toggle:
+      icon: material/brightness-4
+      name: Switch to system preference
+  - accent: orange
+    media: (prefers-color-scheme)
+    primary: teal
+    toggle:
+      icon: material/brightness-auto
+      name: Switch to light mode
+  - accent: orange
+    media: '(prefers-color-scheme: light)'
+    primary: teal
+    scheme: default
+    toggle:
+      icon: material/brightness-7
+      name: Switch to dark mode
